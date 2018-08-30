@@ -17,6 +17,8 @@ int main()
     kropka.cordZ=0;
     int sizz, legn;
     short wpisana;
+    std::cout << "Example numbers for fullscreen terminal:\nLength - 10\nAmmount - 6\n";
+    std::cout << "Lane to focus - close to Ammount, can be less than it\nLane for a car - not higher than ammount and higher than zero\n";
     std::cout << "First. Choose the length of your road: ";
     std::cin >> legn;
     std::cout << "\n Good.\nNow - ammount of lanes on your road: ";
